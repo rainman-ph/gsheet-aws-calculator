@@ -22,18 +22,6 @@ function aws_ec2_ri_all_std(region,type,platform,term_length){
   return price
 }
 
-function test_ec2_od(){
-//us-west-2	m5.xlarge	Windows
-//us-west-2	c5.2xlarge	Linux/UNIX
-//eu-north-1	c5.2xlarge	Linux/UNIX
-  const region = 'eu-north-1'
-  const type = 'c5.2xlarge'
-  // const type = 'm6g.xlarge'
-  const platform = 'Linux/UNIX'
-  // const platform ='Windows with SQL Server Standard'
-  const price = ec2_od(region,type,platform)
-  return price
-}
 /**
  * Get price of EC2 OnDemand Instances
  *

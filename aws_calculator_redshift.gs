@@ -1,13 +1,5 @@
 //https://calculator.aws/pricing/2.0/meteredUnitMaps/redshift/USD/current/redshift-calc.json
 
-function test_aws_redshift_ri_all(){
-  let region='us-east-1'
-  let type='dc2.large'
-  let result =''
-  result = aws_redshift_ri_all(region,type,1)
-  return result
-}
-
 /**
  * Get price of Cache Reserve Instances
  *

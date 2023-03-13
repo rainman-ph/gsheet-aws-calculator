@@ -44,7 +44,7 @@ function aws_rds_ri_all(region,type,engine,term_length){
  * @param {engine} Engine (postgres,mysql,aurora-mysql,etc)
  * @customfunction
  */
-function aws_rds_od(region,type,engine,term){
+function aws_rds_od(region,type,engine){
   return get_calculator_aws_rds_price(region,type,engine,"OnDemand")*24*365     
 }
 
